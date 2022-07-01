@@ -20,15 +20,11 @@ body {
   display: flex;
 }
 
-.logo{
-  border: 1px solid #c5bdbd; border-radius: 25%;
-}
-
 .internal-link {
   display: none;
 }
 
-#home_presentation {
+.home_presentation {
   background-image:
     url("./images/Ellipse 11.png"),
     url("./images/Rectangle 4.png"),
@@ -70,7 +66,7 @@ body {
   margin: 0 24px;
 }
 
-#home_presentation p {
+.home_presentation p {
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 16px;
@@ -79,7 +75,7 @@ body {
   margin: 12px 24px 0 24px;
 }
 
-#contact ul {
+.contact ul {
   display: flex;
   align-items: center;
   padding-left: 0;
@@ -91,54 +87,31 @@ body {
   margin-right: 20px;
 }
 
-#my_work { margin: 50px 0 57px 0; }
-
 .project {
   background-color: #fff;
   border-radius: 2.5%;
   margin-bottom: 10vh;
 }
 
-
-#general_inf {
-  display: flex;
+h3 {
+  margin-top: 12px;
+  margin-bottom: 0;
   font-family: Poppins, sans-serif;
+  line-height: 44px;
   font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7f8cff;
+  margin-left: 24px;
 }
 
-.title {
-  color: #344563;
-  margin-right: 12px;
-  line-height: 16px;
-  position: relative;
-  top: 2px;
+footer h3:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #23a3fa;
 }
 
-.counter {
-  margin-right: 12px;
-  width: 8px;
-  height: 8px;
-  align-self: center;
-}
-
-.job-title {
-  color: #7a869a;
-  display: flex;
-  align-items: center;
-  margin-right: 12px;
-}
-
-.year {
-  color: #7a869a;
-  display: flex;
-  align-items: center;
-}
-
-#nav .logo {
+.logo {
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -151,6 +124,7 @@ body {
   margin-top: 20px;
   width: 25%;
   margin-right: 60%;
+  border: 1px solid #c5bdbd; border-radius: 25%;
 }
 
 
@@ -182,30 +156,22 @@ body {
     margin-left: 10.76%;
   }
 
-  header #nav .logo {
-    /*margin-right: 30%;*/
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-  }
-
   #nav nav {
     display: none;
   }
 
-  #nav .internal-link {
+  .internal-link {
     display: flex;
     justify-content: space-between;
     min-width: 190px;
     margin-top: 30px;
   }
 
-  #nav .internal-link li {
+  .internal-link li {
     list-style: none;
   }
 
-  #nav .internal-link li a {
+  .internal-link li a {
     text-decoration: none;
     font-family: Poppins, sans-serif;
     font-weight: 500;
@@ -214,7 +180,7 @@ body {
     color: #344563;
   }
 
-  #home_presentation {
+  .home_presentation {
     height: 916px;
     margin-left: 18%;
     margin-right: 18%;
